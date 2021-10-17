@@ -1,0 +1,1897 @@
+{
+  "bones": [
+    {
+      "id": "root",
+      "type": "bodynoskin",
+      "radius": 2,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        0,
+        255
+      ],
+      "is_root": true
+    },
+    {
+      "id": "hip",
+      "type": "bodynoskin",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "pelvis",
+      "type": "bodyanim",
+      "radius": 0.5,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "spine1",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "spine2",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "spine3",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "spine4",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "spine5",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "neck1",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "neck2",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "head",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "clavicle",
+      "sym": "limbsocket",
+      "type": "bodyanim",
+      "radius": 1.4,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "upperarm",
+      "sym": "limbpartial",
+      "type": "bodyanim",
+      "radius": 0.6,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "upperarm_twist1",
+      "sym": "twist",
+      "type": "bodyanim",
+      "radius": 1.2,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "upperarm_twist2",
+      "sym": "twist",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "upperarm_twist3",
+      "sym": "twist",
+      "type": "bodyanim",
+      "radius": 0.9,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "lowerarm",
+      "sym": "limbpartial",
+      "type": "bodyanim",
+      "radius": 0.5,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "lowerarm_twist1",
+      "sym": "twist",
+      "type": "bodyanim",
+      "radius": 1.2,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "lowerarm_twist2",
+      "sym": "twist",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "lowerarm_twist3",
+      "sym": "twist",
+      "type": "bodyanim",
+      "radius": 0.8,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "hand",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.5,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "thigh",
+      "sym": "limbsocket",
+      "type": "bodyanim",
+      "radius": 1.2,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "thigh_twist1",
+      "sym": "twist",
+      "type": "bodyanim",
+      "radius": 1.2,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "thigh_twist2",
+      "sym": "twist",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "basic",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "calf",
+      "sym": "limbpartial",
+      "type": "bodyanim",
+      "radius": 0.8,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "calf_twist1",
+      "sym": "twist",
+      "type": "bodyanim",
+      "radius": 1.2,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "calf_twist2",
+      "sym": "twist",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "foot",
+      "sym": "limbpartial",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "heel",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "ball",
+      "sym": "limbpartial",
+      "type": "bodyanim",
+      "radius": 0.5,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "toetip",
+      "sym": "limb",
+      "type": "posbone",
+      "radius": 1,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "toe_big1",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.5,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "toe_big2",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.4,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "toe_long1",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "toe_long2",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.2,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "toe_middle1",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "toe_middle2",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.2,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "toe_ring1",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "toe_ring2",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.2,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "toe_little1",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "toe_little2",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.2,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "glute",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.6,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "glute_cheek",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.6,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "glute_max",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.6,
+      "set": "basicanim",
+      "flex": true,
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "glute_dimple",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.6,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "glute_crease",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.6,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "breast",
+      "type": "bodyanim",
+      "radius": 0.5,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "nip",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "cup",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.4,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "belly",
+      "type": "bodyanim",
+      "radius": 0.4,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "pooch",
+      "type": "bodyanim",
+      "radius": 0.4,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "flub",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.4,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "quad",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flex": true
+    },
+    {
+      "id": "adductor",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flex": true
+    },
+    {
+      "id": "gastro_outer",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flex": true
+    },
+    {
+      "id": "gastro_inner",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flex": true
+    },
+    {
+      "id": "ham",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flex": true
+    },
+    {
+      "id": "scapula",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flex": true
+    },
+    {
+      "id": "spinae",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flex": true
+    },
+    {
+      "id": "bicep",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flex": true
+    },
+    {
+      "id": "tricep",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flex": true
+    },
+    {
+      "id": "ab",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x",
+      "flex": true
+    },
+    {
+      "id": " lat",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flex": true
+    },
+    {
+      "id": "deltoid",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flex": true
+    },
+    {
+      "id": "brach",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flex": true
+    },
+    {
+      "id": "trap",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flex": true
+    },
+    {
+      "id": "throat",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "flex": true
+    },
+    {
+      "id": "pit",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "clothing_waist_back",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "basicanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "eye",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "ear",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "limbsocket"
+    },
+    {
+      "id": "jaw",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "brow1",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "brow2",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "brow3",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "brow4",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "brow",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "eyelid_upper1",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "eyelid_upper2",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "eyelid_upper3",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "eyelid_lower1",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "eyelid_lower2",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "eyelid_lower3",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "lip_upper_center",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "lip_upper1",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "lip_upper2",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "lip_upper3",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "lip_upper3",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "lip_lower_center",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "lip_lower1",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "lip_lower2",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "lip_lower3",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "lip_lower_corner",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "squint",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "cheek",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "cheekbone",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "lipline",
+      "sym": "x",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "nostril",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+        {
+      "id": "philtrum",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+        {
+      "id": "chin",
+      "type": "faceanim",
+      "radius": 0.2,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "finger_thumb1",
+      "sym": "knuckle",
+      "type": "bodyanim",
+      "radius": 0.5,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "finger_thumb2",
+      "type": "bodyanim",
+      "radius": 0.4,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "finger_thumb3",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "finger_index1",
+      "type": "bodyanim",
+      "radius": 0.5,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "knuckle"
+    },
+    {
+      "id": "finger_index2",
+      "type": "bodyanim",
+      "radius": 0.4,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "finger_index3",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "finger_middle1",
+      "type": "bodyanim",
+      "radius": 0.5,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "knuckle"
+    },
+    {
+      "id": "finger_middle2",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.4,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]      
+    },
+    {
+      "id": "finger_middle3",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "finger_ring1",
+      "type": "bodyanim",
+      "radius": 0.5,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "knuckle"
+    },
+    {
+      "id": "finger_ring2",
+      "type": "bodyanim",
+      "radius": 0.4,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "finger_ring3",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "finger_pinky1",
+      "type": "bodyanim",
+      "radius": 0.5,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "knuckle"
+    },
+    {
+      "id": "finger_pinky2",
+      "type": "bodyanim",
+      "radius": 0.4,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "finger_pinky3",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "breath_upper",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "breath_lower",
+      "type": "bodyanim",
+      "radius": 0.3,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "bulge",
+      "type": "clothesanim",
+      "radius": 0.4,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "tongue1",
+      "type": "tongueanim",
+      "radius": 0.5,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "tongue2",
+      "type": "tongueanim",
+      "radius": 0.4,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "tongue3",
+      "type": "tongueanim",
+      "radius": 0.3,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "tongue4",
+      "type": "tongueanim",
+      "radius": 0.3,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "tongue5",
+      "type": "tongueanim",
+      "radius": 0.3,
+      "set": "faceanim",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "genm",
+      "type": "bodynoskin",
+      "radius": 0.4,
+      "set": "genm",
+      "rgb": [
+        20,
+        125,
+        255
+      ]
+    },
+    {
+      "id": "scro",
+      "type": "bodyanim",
+      "radius": 1,
+      "set": "genm",
+      "rgb": [
+        20,
+        125,
+        255
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "shaft1",
+      "type": "bodyanim",
+      "radius": 0.7,
+      "set": "genm",
+      "rgb": [
+        20,
+        125,
+        255
+      ]
+    },
+    {
+      "id": "shaft2",
+      "type": "bodyanim",
+      "radius": 0.7,
+      "set": "genm",
+      "rgb": [
+        20,
+        125,
+        255
+      ]
+    },
+    {
+      "id": "shaft3",
+      "type": "bodyanim",
+      "radius": 0.7,
+      "set": "genm",
+      "rgb": [
+        20,
+        125,
+        255
+      ]
+    },
+    {
+      "id": "shaft4",
+      "type": "bodyanim",
+      "radius": 0.7,
+      "set": "genm",
+      "rgb": [
+        20,
+        125,
+        255
+      ]
+    },
+    {
+      "id": "shaft5",
+      "type": "bodyanim",
+      "radius": 0.7,
+      "set": "genm",
+      "rgb": [
+        20,
+        125,
+        255
+      ]
+    },
+    {
+      "id": "genf",
+      "type": "bodynoskin",
+      "radius": 0.7,
+      "set": "genf",
+      "rgb": [
+        210,
+        120,
+        210
+      ]
+    },
+    {
+      "id": "stim",
+      "type": "bodyanim",
+      "radius": 0.4,
+      "set": "genf",
+      "rgb": [
+        210,
+        120,
+        210
+      ]
+    },
+    {
+      "id": "lab1",
+      "type": "bodyanim",
+      "radius": 0.2,
+      "set": "genf",
+      "rgb": [
+        210,
+        120,
+        210
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "lab2",
+      "type": "bodyanim",
+      "radius": 0.2,
+      "set": "genf",
+      "rgb": [
+        210,
+        120,
+        210
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "lab3",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.2,
+      "set": "genf",
+      "rgb": [
+        210,
+        120,
+        210
+      ]
+    },
+    {
+      "id": "lab4",
+      "type": "bodyanim",
+      "radius": 0.2,
+      "set": "genf",
+      "rgb": [
+        210,
+        120,
+        210
+      ],
+      "sym": "x"
+    },
+    {
+      "id": "vay_upper",
+      "type": "bodyanim",
+      "radius": 0.2,
+      "set": "genf",
+      "rgb": [
+        210,
+        120,
+        210
+      ]
+    },
+    {
+      "id": "vay_lower",
+      "type": "bodyanim",
+      "radius": 0.2,
+      "set": "genf",
+      "rgb": [
+        210,
+        120,
+        210
+      ]
+    },
+    {
+      "id": "vay_corner",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.2,
+      "set": "genf",
+      "rgb": [
+        210,
+        120,
+        210
+      ]
+    },
+    {
+      "id": "ex_u",
+      "type": "bodyanim",
+      "radius": 0.2,
+      "set": "gena",
+      "rgb": [
+        210,
+        120,
+        210
+      ]
+    },
+    {
+      "id": "ex_d",
+      "type": "bodyanim",
+      "radius": 0.2,
+      "set": "gena",
+      "rgb": [
+        210,
+        120,
+        210
+      ]
+    },
+    {
+      "id": "ex",
+      "sym": "x",
+      "type": "bodyanim",
+      "radius": 0.2,
+      "set": "gena",
+      "rgb": [
+        210,
+        120,
+        210
+      ]
+    },
+    {
+      "id": "hair_socket",
+      "type": "socketbone",
+      "radius": 1,
+      "set": "socket",
+      "rgb": [
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "id": "hat_socket",
+      "type": "socketbone",
+      "radius": 1,
+      "set": "socket",
+      "rgb": [
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "id": "grip_palm",
+      "sym": "x",
+      "type": "socketbone",
+      "radius": 0.5,
+      "set": "socket",
+      "rgb": [
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "id": "grip_shield",
+      "sym": "x",
+      "type": "socketbone",
+      "radius": 0.5,
+      "set": "socket",
+      "rgb": [
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "id": "sheath_back_sword",
+      "sym": "x",
+      "type": "socketbone",
+      "radius": 0.5,
+      "set": "socket",
+      "rgb": [
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "id": "sheath_back_bow",
+      "sym": "x",
+      "type": "socketbone",
+      "radius": 0.5,
+      "set": "socket",
+      "rgb": [
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "id": "sheath_back_quiver",
+      "sym": "x",
+      "type": "socketbone",
+      "radius": 0.5,
+      "set": "socket",
+      "rgb": [
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "id": "sheath_back_shield",
+      "sym": "x",
+      "type": "socketbone",
+      "radius": 0.5,
+      "set": "socket",
+      "rgb": [
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "id": "sheath_small_dagger",
+      "sym": "x",
+      "type": "socketbone",
+      "radius": 0.5,
+      "set": "socket",
+      "rgb": [
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "id": "sheath_hip_sword",
+      "sym": "x",
+      "type": "socketbone",
+      "radius": 0.5,
+      "set": "socket",
+      "rgb": [
+        255,
+        255,
+        0
+      ]
+    }
+  ],
+  "twists": [
+    {
+      "start": "upperarm",
+      "end": "lowerarm",
+      "syntax": "upperarm_twist$",
+      "sym": "x",
+      "num": 3
+    },
+    {
+      "start": "lowerarm",
+      "end": "hand",
+      "syntax": "lowerarm_twist$",
+      "sym": "x",
+      "num": 3
+    },
+    {
+      "start": "thigh",
+      "end": "calf",
+      "syntax": "thigh_twist$",
+      "sym": "x",
+      "num": 2
+    },
+    {
+      "start": "calf",
+      "end": "foot",
+      "syntax": "calf_twist$",
+      "sym": "x",
+      "num": 2
+    }
+  ],
+  "locators": [
+    {
+      "id": "brow_rest1",
+      "type": "face",
+      "sym": "x",
+      "snapto": "brow1"
+    },
+    {
+      "id": "brow_rest2",
+      "type": "face",
+      "sym": "x",
+      "snapto": "brow2"
+    },
+    {
+      "id": "brow_rest3",
+      "type": "face",
+      "sym": "x",
+      "snapto": "brow3"
+    },
+    {
+      "id": "brow_rest4",
+      "type": "face",
+      "sym": "x",
+      "snapto": "brow4"
+    },
+    {
+      "id": "brow_up1",
+      "type": "face",
+      "sym": "x"
+    },
+    {
+      "id": "brow_up2",
+      "type": "face",
+      "sym": "x"
+    },
+    {
+      "id": "brow_up3",
+      "type": "face",
+      "sym": "x"
+    },
+    {
+      "id": "brow_up4",
+      "type": "face",
+      "sym": "x"
+    },
+    {
+      "id": "brow_down1",
+      "type": "face",
+      "sym": "x"
+    },
+    {
+      "id": "brow_down2",
+      "type": "face",
+      "sym": "x"
+    },
+    {
+      "id": "brow_down3",
+      "type": "face",
+      "sym": "x"
+    },
+    {
+      "id": "brow_down4",
+      "type": "face",
+      "sym": "x"
+    }
+  ]
+}
